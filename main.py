@@ -30,6 +30,7 @@ def Create_User():
             adduser(getname, getemail)
             st.success("User Added Success")
 
+
     with col2:
         st.title("Table")
         query = "SELECT * from user"
